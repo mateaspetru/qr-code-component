@@ -1,0 +1,74 @@
+/* font-family: 'Outfit', sans-serif; */
+
+
+/* Layout
+The designs were created to the following widths:
+
+Mobile: 375px
+Desktop: 1440px
+
+Colors
+White: hsl(0, 0%, 100%)
+Light gray: hsl(212, 45%, 89%)
+Grayish blue: hsl(220, 15%, 55%)
+Dark blue: hsl(218, 44%, 22%)
+Typography
+
+Body Copy
+Font size (paragraph): 15px
+Font
+Family: Outfit
+Weights: 400, 700 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    font-family: 'Outfit', sans-serif;
+    width: 400px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 0.5em;
+}
+
+p{
+    color: hsl(228, 45%, 44%);
+    margin-bottom: 4em;
+    padding: 0 60px 0 60px;
+}
+body{
+        height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1440px; */
+}
+
+.qr-code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+img{
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
