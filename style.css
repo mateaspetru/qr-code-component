@@ -55,7 +55,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 1440px; */
+    padding: 5%;
 }
 
 .qr-code{
@@ -64,11 +64,11 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5%;
+    padding: 5%;
 }
 img{
     width: 400px;
-    border-radius: 5px;
+    border-radius: 5%;
     margin-bottom: 2em;
 }
